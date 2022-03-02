@@ -1,0 +1,17 @@
+#1 Welcome to pie bank
+
+#2
+pie bank is a desktop based application which demonstrates the bank transaction system. It is developed using Python programming language. The front-end is built using T-kinter which, is a Jee you ie library of Python. the database used is my SQL lite.
+The verification SMS's are sent using a third party web-application Twilio. Twilio allows to programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs. 
+
+#3 click on the buttons to trigger paritcular functions.
+
+#4 to register, please the following details correctly.
+
+#4-1 Please enter the OTP verification code.
+#4-2 Enter the amount to be deposited.
+#4_3 your account has been registered. Thank you for using our services.
+
+#5 thank you for using pie bank.
+common_msg
+enter the following details correctly.
