@@ -3,8 +3,6 @@
 
 # UI imports 
 from tkinter import *
-from tkinter import ttk
-from turtle import left
 from PIL import ImageTk, Image
 
 
@@ -169,7 +167,7 @@ class Bank():
         conn.commit()
         conn.close()
 
-# whenever this application is started this get clicked and as you can see it call the main method (in the bank class) and creates the sql table.
+# whenever this application is started this get clicked and as you can see it calls the main method (in the bank class) and creates the sql table.
 if __name__ == '__main__':
     Bank.main() # as you can see that the main() function is defined inside the class 'Bank'. we have declared it as a @staticmethod decorator, so that we can call it outside the class without creating an object.
     Thread(target = pAudio).start()
